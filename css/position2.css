@@ -1,0 +1,38 @@
+.notification {
+    width: 300px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.notif{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.notif i {
+    font-size: 3rem;
+}
+.notif .counter {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+.orange {
+    background-color: orangered;
+}
+.green {
+    background-color: rgb(8, 252, 8);
+}
+.blue {
+    background-color: blue;
+}

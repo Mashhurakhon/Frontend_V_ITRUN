@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(207, 166, 247);
+    margin: 10px auto;
+}
+section {
+    width: 100%;
+}
+section.service{
+    background-color: rgb(88, 208, 245);
+    padding: 50px 30px;
+    text-align: center;
+}
+section h1{
+    margin-bottom: 20px;
+}
+.grid{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(2, 200px); */
+    grid-auto-rows: 250px;
+    justify-content: center;
+    gap: 20px;
+}
+.dv{
+    background-color: white;
+    padding: 30px 30px 0;
+}
+.dv .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

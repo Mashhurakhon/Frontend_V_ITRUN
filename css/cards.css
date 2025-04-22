@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cards{
+    margin-top: 20px; /* внешний отступ сверху в 20px */
+    display: flex; /* гибкий блок */
+    justify-content: center; /* все элементы по ценру гориз */
+    gap: 25px; /* одинаковое расстояние между flex-эл-ми */
+    flex-wrap: wrap; /* перенос непоместившихся эл-ов */
+}
+.card{
+    width: 250px; /* ширина карточки */
+    height: 200px; /* высота карточки */
+    display: flex;
+    flex-direction: column; /*вертикальное положение*/
+    justify-content: center; /* вертикально по центру */
+    align-items: center; /* горизонтально по центру */
+    gap: 20px; 
+    color: white; /* цвет текста */
+}
+.card i{
+    font-size: 3rem; /*48px | размер текста 1rem = 16px */
+}
+.card .name {
+    font-size: 1.3rem;
+}
+.card .count {
+    font-size: 2rem;
+}
+.red-bg{
+    background-color: red; /* цвет заднего фона */
+}
+.green-bg{
+    background-color: green;
+}
+.blue-bg{
+    background-color: blue;
+}
+.purple-bg{
+    background-color: blueviolet;
+}

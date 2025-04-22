@@ -1,0 +1,18 @@
+:root {
+    --button-color: rgb(54, 123, 252);
+    --main-text-color: rgba(27, 27, 27, 0.95);
+    --white-color: white;
+    --main-bg-color: rgb(221, 221, 221);
+    --shadow-color: rgba(73, 73, 73, 0.836);
+    --main-text: 24px;
+}
+
+html.dark {
+    --button-color: rgb(54, 123, 252);
+    --main-bg-color: rgb(46, 46, 46);
+    --shadow-color: rgba(255, 255, 255, 0.836);
+    --main-text-color: white;
+    --white-color: black;
+    --main-text: 24px;
+}
+
